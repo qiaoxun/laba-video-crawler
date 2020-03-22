@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="static/dplayjs/DPlayer.min.css" />
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="static/css/index.css" />
+</head>
+<body>
+
+<div class="container bs-docs-container">
+    <div class="jumbotron">
+      <h1>请输入腊八影院的 URL</h1>
+
+      <div class="input-group">
+        <input type="text" class="form-control" id="laba_url" aria-label="url">
+        <div class="input-group-btn">
+          <button type="button" onclick="collectURL()" class="btn btn-default">搜索</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="dplayer"></div>
+</div>
+
+<script src="static/dplayjs/hls.js"></script>
+<script src="static/dplayjs/DPlayer.min.js"></script>
+<script src="static/js/jquery.js"></script>
+<script src="static/bootstrap/js/bootstrap.min.js"></script>
+<script src="static/js/index.js"></script>
+</body>
+</html>
